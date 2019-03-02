@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Spirit</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type: "text/css" href="Burke.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="Burke.js"></script>
+</head>
+<body>
+    <style>
+        /* Slideshow container */
+       .slideshow-container {
+         max-width: 700px;
+         position: relative;
+         margin: auto;
+       }
+       
+       /* Hide the images by default */
+       .mySlides {
+         display: none
+       }
+         img {vertical-align: middle;
+       }
+       
+       /* Next & previous buttons */
+       .prev, .next {
+         cursor: pointer;
+         position: absolute;
+         top: 50%;
+         width: auto;
+         margin-top: -22px;
+         padding: 16px;
+         color: white;
+         font-weight: bold;
+         font-size: 18px;
+         transition: 0.6s ease;
+         border-radius: 0 3px 3px 0;
+         user-select: none;
+       }
+       .post1{
+        line-height: 1.6;
+        text-align:left;
+       }
+       /* Position the "next button" to the right */
+       .next {
+         right: 0;
+         border-radius: 3px 0 0 3px;
+       }
+       
+       /* On hover, add a black background color with a little bit see-through */
+       .prev:hover, .next:hover {
+         background-color: rgba(0,0,0,0.8);
+       }
+       
+       /* Caption text */
+       .text {
+         color: #f2f2f2;
+         font-size: 15px;
+         padding: 8px 12px;
+         position: absolute;
+         bottom: 8px;
+         width: 100%;
+         text-align: center;
+       }
+       
+       /* Number text (1/3 etc) */
+       .numbertext {
+         color: #f2f2f2;
+         font-size: 12px;
+         padding: 8px 12px;
+         position: absolute;
+         top: 0;
+       }
+       
+       /* The dots/bullets/indicators */
+       .dot {
+         cursor: pointer;
+         height: 15px;
+         width: 15px;
+         margin: 0 2px;
+         background-color: #bbb;
+         border-radius: 50%;
+         display: inline-block;
+         transition: background-color 0.6s ease;
+       }
+       
+       .active, .dot:hover {
+         background-color: #717171;
+       }
+       
+       /* Fading animation */
+       .fade {
+         -webkit-animation-name: fade;
+         -webkit-animation-duration: 1.5s;
+         animation-name: fade;
+         animation-duration: 1.5s;
+       }
+       
+       @-webkit-keyframes fade {
+         from {opacity: .4} 
+         to {opacity: 1}
+       }
+       
+       @keyframes fade {
+         from {opacity: .4} 
+         to {opacity: 1}
+       
+       }
+       #myBtn {
+        background-color:black; /* Green */
+        border: none;
+         color: gold;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+             }
+        #more {
+              display: none;
+}
+             </style>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/OPSBurkeHigh/"><i class="fa fa-facebook"></i></a> 
+        <a href="https://twitter.com/OPS_Burke"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.linkedin.com/groups/707067/"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://www.youtube.com/channel/UCwnruN7nJQwzY2S97bmF_iw"><i class="fa fa-youtube"></i></a>
+        <a href="SignInHome.html"class="signin" style="float:right;"><i></i>Sign-In</a> 
+        <a href="RegisterHome.html"class="register" style="float:right;"><i ></i>Register</a>
+      </div>
+      <center>
+ <div class="myheader">
+<h1> Burke High School</h1>
+<div class="topnav">
+  
+    <a class="Home" href="Burke.html" >Home</a>
+    <a class="Services" href="Activities.html">Activities</a>
+    <a class="Register" href="calendar.html">Calendar</a>
+    <a class="Sign-in" href="Check-In.html">Check-In</a>
+    <a class="Sign-in" href="survey.html">Surveys</a>
+    <a class="Sign-in" href="profile.html">Profile</a>
+  </div>
+  </center>
+ </div>
+<br><br>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+    
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 8</div>
+        <img src="BDSgroup.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+          <div class="numbertext">2 / 8</div>
+          <img src="ChoirConcert.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 8</div>
+            <img src="ColorGuard.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="FBseniorNight.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="SeniorBDS.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="VBSeniorNight.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 8</div>
+            <img src="VCheer.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides fade">
+              <div class="numbertext">8 / 8</div>
+              <img src="StudentSec.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+      <span class="dot" onclick="currentSlide(8)"></span> 
+       
+    </div>
+<br><br>
+<div class="row">
+  <center>
+    <div class="column">
+      <h3>
+          How well is Burke preparing seniors for college?          
+      </h3>
+      <hr>
+      <h6>
+          Zoe Sanders, News Editor
+          <br>December 20, 2018
+          <br>Opinion Piece
+      </h6>
+      <p class="post1"><tab> With the semester almost over, deadlines for things such as college applications, scholarships and the FAFSA (Free Application 
+        for Federal Student Aid) are coming up quick. At this critical time in preparing for our future, many students remain unaware that these due dates that may affect 
+        their future success are rapidly approaching. In addition, many students also remain unaware of the resources Burke has to offer in order to meet these requirements,
+         and therefore, remain unprepared. <span id="dots">...</span>
+         <span id="more">Walking through the cafeteria and asking seniors if they thought Burke had prepared them 
+           for college this year, the resounding answer was “no.” However, when asked how they thought Burke could improve, few suggestions were given. Some answers that were 
+           given though, were along the lines of advertising their resources more, adjusting the grading scale to be more compatible with colleges and having more one-on-one 
+           events as opposed to large group events where some might not benefit. 
+            
+            Burke has some truly great opportunities available to help us, such as EducationQuest making frequent visits, different college representatives stopping by to recruit 
+            and help potential students fill out applications and more. However, the lack of availability and advertising gives the notion that Burke doesn’t care if people utilize them.  
+            
+            These forms of advertisement don’t need to be fancy or expensive by any means. Simple things like having the counselor aides make posters about upcoming college visits, college 
+            representatives visiting, or even just signs advertising online resources that help students fill out applications or find scholarships. The school already has a tab on the Burke 
+            website dedicated to “Advanced Education” under the “Counseling” tab, that has links to things such as college applications, financial aid and scholarship websites, and more. This 
+            is a great resource available for upperclassmen to use, but not many people know that this exists.  
+            
+            Overall, our school has a variety of resources to help students. This being said, these resources aren’t being made readily available to be used by students, ultimately adding 
+            unnecessary stress to the lives of students and their guardians. </span> </p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+    <div class="column">
+      <h3>
+        Announcement!
+      </h3>
+      <hr>
+        <img src="Screen Shot 2019-02-28 at 8.19.18 PM.png" style="width:100%">
+    </div>
+    <div class="column">
+      <h3>
+        Introducing AP Capstone
+      </h3>
+      <hr>
+      <iframe width="400" height="315" src="https://www.youtube.com/embed/yPsQvn6NaLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </center>
+  </div>
+  <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1} 
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none"; 
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block"; 
+dots[slideIndex-1].className += " active";
+}
+function myFunction() {
+   var dots = document.getElementById("dots");
+   var moreText = document.getElementById("more");
+   var btnText = document.getElementById("myBtn");
+ 
+   if (dots.style.display === "none") {
+     dots.style.display = "inline";
+     btnText.innerHTML = "Read more"; 
+     moreText.style.display = "none";
+   } else {
+     dots.style.display = "none";
+     btnText.innerHTML = "Read less"; 
+     moreText.style.display = "inline";
+   }
+ }</script>

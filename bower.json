@@ -1,0 +1,20 @@
+{
+  "name": "idhlyc.run",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Gabi Jaapar <gabijaapar@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tui-calendar": "^1.10.0"
+  }
+}

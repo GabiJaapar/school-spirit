@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Spirit</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type: "text/css" href="Burke.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="Burke.js"></script>
+</head>
+<body>
+  <style>
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  width: 75%;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 0px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.checked {
+  color: orange;
+}
+#myUL a.active {
+  background-color: gray;
+  color:black;
+}
+  </style>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/OPSBurkeHigh/"><i class="fa fa-facebook"></i></a> 
+        <a href="https://twitter.com/OPS_Burke"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.linkedin.com/groups/707067/"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://www.youtube.com/channel/UCwnruN7nJQwzY2S97bmF_iw"><i class="fa fa-youtube"></i></a>
+        <a href="#"class="signin" style="float:right;"><i></i>Sign-In</a> 
+        <a href="#"class="register" style="float:right;"><i ></i>Register</a>
+      </div>
+      <center>
+ <div class="myheader">
+<h1> Burke High School</h1>
+<div class="topnav">
+  
+    <a class="Home" href="Burke.html" >Home</a>
+    <a class="Services" href="Activities.html">Activities</a>
+    <a class="Register" href="calendar.html">Calendar</a>
+    <a class="Sign-in" href="Check-In.html">Check-In</a>
+    <a class="Sign-in" href="survey.html">Surveys</a>
+    <a class="Sign-in" href="profile.html">Profile</a>
+  </div>
+  </center>
+ </div>
+<br><br>
+<center><h1>Event Check-In</h1> </center>
+<hr style="width:50%">
+<br><br><br><br><br><br>
+<div class="row">
+    <center>
+    <div class="column">
+<h3>Step 1: Choose what type of event you're going to:</h3>
+<ul id="myUL">
+  <li><a href="clubs.html">Clubs</a></li>
+  <li><a href="sports.html">Sports</a></li>
+
+  <li><a href="CS.html">Community Service</a></li>
+  <li><a href="Perform.html"class="active">Performances</a></li>
+
+  <li><a href="academics.html">Academics</a></li>
+
+</ul>
+</div>
+<div class="column">
+        <h3> Step 2: Have your supervisor scan your QR code:</h3>
+        <img src="qr-code.png" alt="Gabi" style="width:65%">
+    </div>
+    <div class="column"style="float: right">
+        <h3>Step 3: Rate the quality of your event:</h3>
+        <h2>Star Rating</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </center>
+        </div>
+       </div>

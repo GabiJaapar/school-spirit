@@ -1,0 +1,71 @@
+.myheader {
+  padding: 60px;
+  text-align: center;
+  background: white;
+  color:black;
+  font-size: 30px;
+}
+.topnav {
+  background-color: White;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 3px solid black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 13%;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 5%;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.signin {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  width: 15%;
+}
+.register {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  width: 15%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Register</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type: "text/css" href="Burke.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="Burke.js"></script>
+    </head>
+    <body>
+        <style>
+            form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: black;
+  color: gold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  width: 50%;
+}
+.container1 {
+  padding: 40px;
+  width: 89%;
+}
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+hr {
+    width: 50%;
+}
+
+        </style>
+        <div class="icon-bar">
+                <a href="https://www.facebook.com/OPSBurkeHigh/"><i class="fa fa-facebook"></i></a> 
+                <a href="https://twitter.com/OPS_Burke"><i class="fa fa-twitter"></i></a> 
+                <a href="https://www.linkedin.com/groups/707067/"><i class="fa fa-linkedin"></i></a> 
+                <a href="https://www.youtube.com/channel/UCwnruN7nJQwzY2S97bmF_iw"><i class="fa fa-youtube"></i></a>
+                <a href="SignInHome.html"class="signin" style="float:right;"><i></i>Sign-In</a> 
+                <a href="RegisterHome.html"class="register" style="float:right;"><i ></i>Register</a>
+              </div>
+              <center>
+         <div class="myheader">
+        <h1> Burke High School</h1>
+        <div class="topnav">
+          
+                <a class="Home" href="Burke.html" >Home</a>
+                <a class="Services" href="Activities.html">Activities</a>
+                <a class="Register" href="calendar.html">Calendar</a>
+                <a class="Sign-in" href="Check-In.html">Check-In</a>
+                <a class="Sign-in" href="survey.html">Surveys</a>
+                <a class="Sign-in" href="profile.html">Profile</a>
+          </div>
+          </center>
+         </div>
+        <br><br>
+        <center>
+            <h1> Sign-In Here
+            </h1>
+            <hr>
+                <form action="action_page.php">
+                      
+                        <div class="container">
+                        
+                          <label for="uname"><b>Username</b></label>
+                          <input type="text" placeholder="Enter Username" name="uname" required>
+                      
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                          <button type="submit">Login</button>
+                          <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                          </label>
+                        </div>
+                      
+                        <div class="container1" style="background-color:#f1f1f1;">
+                          <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                      </form>
+        </center>
